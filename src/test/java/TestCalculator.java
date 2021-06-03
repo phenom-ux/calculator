@@ -19,4 +19,8 @@ public class TestCalculator {
 
     @Test
     public void testDivision(){ assertEquals(2,cal.division(4,2));}
+    
+    @Test
+    public void testAdd(){ assertEquals(4,cal.add(1,2))}
+
 }
