@@ -23,4 +23,6 @@ public class TestCalculator {
     @Test
     public void testAdd(){ assertEquals(4,cal.add(2,2));}
 
+    @Test
+    public void testSub(){ assertEquals(2, cal.sub(4,2));}
 }
