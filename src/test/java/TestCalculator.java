@@ -11,4 +11,6 @@ public class TestCalculator {
         assertEquals(4,cal.addition(2,2));
     }
 
+    @Test
+    public void testMultiplication(){ assertEquals(6,cal.multiplication(2,3));}
 }
