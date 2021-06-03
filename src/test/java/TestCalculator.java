@@ -13,4 +13,10 @@ public class TestCalculator {
 
     @Test
     public void testMultiplication(){ assertEquals(6,cal.multiplication(2,3));}
+
+    @Test
+    public void testSubtraction(){ assertEquals(4,cal.subtraction(8,4));}
+
+    @Test
+    public void testDivision(){ assertEquals(2,cal.division(4,2));}
 }
